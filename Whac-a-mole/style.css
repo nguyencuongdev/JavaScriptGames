@@ -1,0 +1,33 @@
+.game {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around
+}
+
+h2 {
+    text-align: center;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.square.mole {
+    background-image: url("mole.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

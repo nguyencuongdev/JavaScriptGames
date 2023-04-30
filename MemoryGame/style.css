@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+}
+
+#grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#grid img {
+    cursor: pointer;
+}
